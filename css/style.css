@@ -9456,6 +9456,12 @@ a.text-dark:hover, a.text-dark:focus {
   object-fit: fill; /* Garante que a imagem preencha o espaço sem distorção */
 }
 
+.fotos-encontro {
+  width: 300px; /* Define a largura fixa */
+  height: 300px; /* Define a altura fixa */
+  object-fit: fill; /* Garante que a imagem preencha o espaço sem distorção */
+}
+
 /********** Template CSS ************/
 .font-secondary {
   font-family: 'Great Vibes', cursive;

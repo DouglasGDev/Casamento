@@ -157,6 +157,10 @@
     
     // Adiciona o evento de clique ao botão quando o DOM estiver pronto
     document.getElementById('confirmar-btn').addEventListener('click', enviarMensagem);   
+
+    const ano = document.getElementById("mostrarAnoAtual");
+    const anoAtual = new Date();
+    ano.innerHTML = anoAtual.getFullYear();
     
     
 })(jQuery);

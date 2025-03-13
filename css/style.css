@@ -9453,7 +9453,7 @@ a.text-dark:hover, a.text-dark:focus {
 .fotos-padrinhos {
   width: 250px; /* Define a largura fixa */
   height: 400px; /* Define a altura fixa */
-  /*object-fit: contain; /* Garante que a imagem preencha o espaço sem distorção */
+  object-fit: fill; /* Garante que a imagem preencha o espaço sem distorção */
 }
 
 /********** Template CSS ************/
